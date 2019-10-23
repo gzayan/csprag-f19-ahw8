@@ -17,6 +17,8 @@ def calculate(string):
             stack.append(int(token))
 
         print(stack)
+    if len(stack) != 1:
+        raise TypeError("Malformed input: " + string)
     return stack.pop()
 
 def main():
