@@ -23,5 +23,5 @@ class TestBasics(unittest.TestCase):
         self.assertEqual(2, result)
 
     def test_exp(self):
-        result = rpn.calculate("4 2 ^")
+        result = rpn.calculate("4 2 **")
         self.assertEqual(16, result)
