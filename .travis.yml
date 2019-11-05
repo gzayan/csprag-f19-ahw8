@@ -1,8 +1,8 @@
 language: python
-rvm:
+python:
         - "3.5"
 
 install: skip
 
 script:
-        - make
+        - python3 -m unittest
