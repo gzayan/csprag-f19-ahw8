@@ -4,4 +4,4 @@ rvm:
 
 install: skip
 
-script: make test
+script: make
